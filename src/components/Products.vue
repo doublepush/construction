@@ -17,11 +17,11 @@
               <p class="relative text-lg font-semibold text-white">{{ product.price }}</p>
             </div>
           </div>
-          <div class="mt-6">
+          <!-- <div class="mt-6">
             <a :href="product.href" class="relative flex items-center justify-center rounded-md border border-transparent bg-gray-100 px-8 py-2 text-sm font-medium text-gray-900 hover:bg-gray-200"
               >Add to cart<span class="sr-only">, {{ product.name }}</span></a
             >
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -29,39 +29,47 @@
 </template>
 
 <script setup>
+import image4 from "../assets/image-4.jpeg";
+import image3 from "../assets/image-3.jpeg";
+import image6 from "../assets/image-6.jpeg";
+import image1 from "../assets/image-1.jpeg";
+import image2 from "../assets/image-2.jpeg";
 const products = [
   {
     id: 1,
-    name: 'Zip Tote Basket',
+    name: 'Ballast/Kokoto',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: 'KES 50,000',
+    imageSrc: image4,
+     price: 'KES 50,000/truckload',
   },
   // More products...
   {
     id: 3,
-    name: 'Zip Tote Basket',
+    name: 'Stones/Mawe',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: 'KES 50,000',
+    imageSrc: image3,
+     price: 'KES 50,000/truckload',
   },
   {
     id: 3,
-    name: 'Zip Tote Basket',
+    name: 'Sand/Mchanga',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: 'KES 50,000',
+    imageSrc: image6,
+     price: 'KES 50,000/truckload',
   },
   {
     id: 4,
-    name: 'Zip Tote Basket',
+    name: 'Truck',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: 'KES 50,000',
+    imageSrc: image1,
+     price: 'KES 100,000/day',
+  },
+  {
+    id: 5,
+    name: 'Truck',
+    href: '#',
+    imageSrc: image2,
+     price: 'KES 100,000/day',
   },
 
 
