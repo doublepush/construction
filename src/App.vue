@@ -32,18 +32,19 @@ import HelloWorld from './components/HelloWorld.vue'
   <div>
     <!-- <HeroCarousel /> -->
      <Hero/>
-    <div class="flex flex-row w-full">
+    <!-- <div class="flex flex-row w-full">
       <SidebarFilter />
-      <MaterialGrid />
-    </div>
+      
+      < <MaterialGrid /> >
+    </div> -->
+    <Products/>
     <Gallery/>
-    <ContactForm />
     <Footer/>
   </div>
 </template>
 
 <script setup>
-import HeroCarousel from './components/HeroCarousel.vue';
+import Products from './components/Products.vue';
 import Gallery from './components/Gallery.vue';
 import Footer from './components/Footer.vue';
 import Hero from './components/Hero.vue';
