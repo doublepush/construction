@@ -11,7 +11,6 @@
             </div>
             <div class="relative mt-4">
               <h3 class="text-sm font-medium text-gray-900">{{ product.name }}</h3>
-              <p class="mt-1 text-sm text-gray-500">{{ product.color }}</p>
             </div>
             <div class="absolute inset-x-0 top-0 flex h-72 items-end justify-end overflow-hidden rounded-lg p-4">
               <div aria-hidden="true" class="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-black opacity-50" />
@@ -34,39 +33,35 @@ const products = [
   {
     id: 1,
     name: 'Zip Tote Basket',
-    color: 'White and black',
     href: '#',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg',
     imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$140',
+    price: 'KES 50,000',
   },
   // More products...
   {
     id: 3,
     name: 'Zip Tote Basket',
-    color: 'White and black',
     href: '#',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg',
     imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$140',
+    price: 'KES 50,000',
   },
   {
     id: 3,
     name: 'Zip Tote Basket',
-    color: 'White and black',
     href: '#',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg',
     imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$140',
+    price: 'KES 50,000',
   },
   {
     id: 4,
     name: 'Zip Tote Basket',
-    color: 'White and black',
     href: '#',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg',
     imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$140',
+    price: 'KES 50,000',
   },
 
 
