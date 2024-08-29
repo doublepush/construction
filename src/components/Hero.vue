@@ -72,11 +72,12 @@
                     Our website makes sourcing for construction products easy and convenient in the comfort of your phone. 
                     We offer delivery services to your site. 
                   </p>
-                  <div class="mt-10 flex items-center gap-x-6">
+                  <div class=" flex flex-col items-center gap-y-4">
                       <!-- <a href="https://wa.me/254790780235" class="text-sm font-semibold leading-6 text-gray-900">Chat with us <span aria-hidden="true">→</span></a> -->
                       <a href="https://wa.me/2547727429214?text=I'm%20want%20to%20order%20from%20your%20website">
                          <img alt="Chat on WhatsApp" src="../assets/WhatsAppButtonGreenSmall.png" />
                       </a>
+                      <CallUs/>
                     </div>
                 </div>
                 <div class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
@@ -120,6 +121,7 @@
   import { ref } from 'vue'
   import { Dialog, DialogPanel } from '@headlessui/vue'
   import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+  import CallUs from './CallUs.vue';
   
   const navigation = [
     { name: 'About us', href: '#' },

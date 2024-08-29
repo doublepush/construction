@@ -48,9 +48,6 @@ import Products from './components/Products.vue';
 import Gallery from './components/Gallery.vue';
 import Footer from './components/Footer.vue';
 import Hero from './components/Hero.vue';
-import MaterialGrid from './components/MaterialGrid.vue';
-import SidebarFilter from './components/SidebarFilter.vue';
-import ContactForm from './components/ContactForm.vue';
 </script>
 
 
