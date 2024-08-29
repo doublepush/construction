@@ -1,6 +1,6 @@
 <template>
              <div class="flex space-x-6">
-                       <a href="https://wa.me/254790780235?text=I'm%20want%20to%20order%20from%20your%20website">
+                       <a href="https://wa.me/2547727429214?text=I'm%20want%20to%20order%20from%20your%20website">
                          <img alt="Chat on WhatsApp" src="../assets/WhatsAppButtonGreenSmall.png" />
                       </a>
         
