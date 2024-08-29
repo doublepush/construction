@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div id="product" class="bg-white">
     <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
       <h2 class="text-xl font-bold text-gray-900">Products</h2>
 
@@ -12,16 +12,9 @@
             <div class="relative mt-4">
               <h3 class="text-sm font-medium text-gray-900">{{ product.name }}</h3>
             </div>
-            <!-- <div class="absolute inset-x-0 top-0 flex h-72 items-end justify-end overflow-hidden rounded-lg p-4">
-              <div aria-hidden="true" class="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-black opacity-50" />
-              <p class="relative text-lg font-semibold text-white">{{ product.price }}</p>
-            </div> -->
+            
           </div>
-          <!-- <div class="mt-6">
-            <a :href="product.href" class="relative flex items-center justify-center rounded-md border border-transparent bg-gray-100 px-8 py-2 text-sm font-medium text-gray-900 hover:bg-gray-200"
-              >Add to cart<span class="sr-only">, {{ product.name }}</span></a
-            >
-          </div> -->
+          
         </div>
       </div>
     </div>

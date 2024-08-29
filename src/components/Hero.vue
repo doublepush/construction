@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white">
+    <div id="about-us" class="bg-white">
       <header class="absolute inset-x-0 top-0 z-50">
         <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div class="flex lg:flex-1">
@@ -124,9 +124,9 @@
   import CallUs from './CallUs.vue';
   
   const navigation = [
-    { name: 'About us', href: '#' },
-    { name: 'Photos', href: '#' },
-    { name: 'Buy', href: '#' },
+    { name: 'About us', href: '#about-us' },
+    { name: 'Photos', href: '#gallery' },
+    { name: 'Buy', href: '#products' },
     { name: 'Chat', href: '#' },
   ]
   
