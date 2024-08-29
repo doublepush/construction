@@ -31,7 +31,6 @@
     { id: 17, name: 'Cement', price: 'KES 800/bag', url: '../assets/vue.svg' },
     { id: 18, name: 'Steel Rod', price: 'kes 1500/rod', url: '../assets/vue.svg' },
     { id: 19, name: 'Ballast', price: 'KES 2000/ton', url: '../assets/vue.svg' },
-    { id: 20, name: 'Mabati', price: 'KES 4000/piece', url: '../assets/vue.svg' },
     
     // Add more materials as needed
   ]);
