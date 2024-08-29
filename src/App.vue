@@ -36,6 +36,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <SidebarFilter />
       <MaterialGrid />
     </div>
+    <Gallery/>
     <ContactForm />
     <Footer/>
   </div>
@@ -43,6 +44,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <script setup>
 import HeroCarousel from './components/HeroCarousel.vue';
+import Gallery from './components/Gallery.vue';
 import Footer from './components/Footer.vue';
 import Hero from './components/Hero.vue';
 import MaterialGrid from './components/MaterialGrid.vue';

@@ -73,8 +73,11 @@
                     We offer delivery services to your site. 
                   </p>
                   <div class="mt-10 flex items-center gap-x-6">
-                      <a href="https://wa.me/254790780235" class="text-sm font-semibold leading-6 text-gray-900">Chat with us <span aria-hidden="true">→</span></a>
-                  </div>
+                      <!-- <a href="https://wa.me/254790780235" class="text-sm font-semibold leading-6 text-gray-900">Chat with us <span aria-hidden="true">→</span></a> -->
+                      <a href="https://wa.me/254790780235?text=I'm%20want%20to%20order%20from%20your%20website">
+                         <img alt="Chat on WhatsApp" src="../assets/WhatsAppButtonGreenSmall.png" />
+                      </a>
+                    </div>
                 </div>
                 <div class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                   <div class="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
